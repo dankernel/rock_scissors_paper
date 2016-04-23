@@ -1,0 +1,39 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+LISTENQ	server.c	19;"	d	file:
+MAXLINE	client.c	16;"	d	file:
+MAXLINE	server.c	18;"	d	file:
+MAX_USERS	server.c	21;"	d	file:
+PAPER	game.c	26;"	d	file:
+RESULT_TALBR	game.c	/^int RESULT_TALBR[3][3] = {{0, 1, -1}, {-1, 0, 1}, {1, -1, 0}};$/;"	v
+ROCK	game.c	24;"	d	file:
+SCISSORS	game.c	25;"	d	file:
+STR_PAPER	game.c	/^char STR_PAPER[] = "PAPER";$/;"	v
+STR_ROCK	game.c	/^char STR_ROCK[] = "ROCK";$/;"	v
+STR_SCISSORS	game.c	/^char STR_SCISSORS[] = "SCISSORS";$/;"	v
+TOTALFORK	client.c	17;"	d	file:
+clientAddr	client.c	/^  char clientAddr[32];$/;"	m	struct:client_info	file:
+clientAddr	server.c	/^  char clientAddr[32];$/;"	m	struct:client_info	file:
+clientPort	client.c	/^  int clientPort;$/;"	m	struct:client_info	file:
+clientPort	server.c	/^  int clientPort;$/;"	m	struct:client_info	file:
+client_info	client.c	/^struct client_info {$/;"	s	file:
+client_info	server.c	/^struct client_info {$/;"	s	file:
+createClient	client.c	/^void createClient(char *port, char *serverIP)$/;"	f
+game_rand	game.c	/^int game_rand(void)$/;"	f
+game_result	game.c	/^int game_result(int input, int ran)$/;"	f
+game_to_string	game.c	/^char *game_to_string(int v)$/;"	f
+lookup_user	server.c	/^struct user *lookup_user(struct user *arr[], int size, char *str)$/;"	f
+lost	server.c	/^  int lost;$/;"	m	struct:user	file:
+main	client.c	/^int main(int argc, char *argv[])$/;"	f
+main	server.c	/^int main(int argc, char *argv[]) $/;"	f
+name	server.c	/^  char *name;$/;"	m	struct:user	file:
+new_user	server.c	/^struct user *new_user(void)$/;"	f
+num	server.c	/^  int num;$/;"	m	struct:user	file:
+pic_end_user	server.c	/^struct user *pic_end_user(struct user *arr[], int len)$/;"	f
+user	server.c	/^struct user {$/;"	s	file:
+user_regist	server.c	/^int user_regist(struct user *user, int num, char *name)$/;"	f
+win	server.c	/^  int win;$/;"	m	struct:user	file:
